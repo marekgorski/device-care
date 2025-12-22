@@ -16,7 +16,7 @@ Layer3 Protocol is a documentation scaffold that helps Claude understand your pr
 ### 1. Clone/Fork this repo
 
 ```bash
-git clone https://github.com/[username]/layer3-protocol.git my-project
+git clone https://github.com/marekgorski/layer3-protocol.git my-project
 cd my-project
 ```
 
