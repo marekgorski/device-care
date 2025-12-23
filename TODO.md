@@ -13,17 +13,21 @@
 
 ---
 
+## Completed
+
+- [x] **Set up initial folder structure**
+  - Created `devices/` root folder
+  - Added initial categories (audio)
+
+- [x] **Add first guide: Sony WI-C310 Bluetooth pairing**
+  - Created folder structure: `devices/audio/headphones/sony-wi-c310/`
+  - Added `pairing-iphone.md` with troubleshooting steps
+
+---
+
 ## Ready to Build
 
 ### High Priority
-
-- [ ] **Set up initial folder structure**
-  - Create `devices/` root folder
-  - Add initial categories (audio, hvac, etc.)
-
-- [ ] **Add first guide: Sony WI-C310 Bluetooth pairing**
-  - Create folder structure: `devices/audio/headphones/sony-wi-c310/`
-  - Add `pairing-iphone.md` with troubleshooting steps
 
 - [ ] **Create guide template**
   - Standard format for device guides

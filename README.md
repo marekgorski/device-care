@@ -1,103 +1,45 @@
-# Layer3 Protocol
+# Device Care
 
-A project template for AI-assisted development with Claude.
+A personal wiki of device troubleshooting guides, organized as browsable markdown files on GitHub.
 
 ## What is this?
 
-Layer3 Protocol is a documentation scaffold that helps Claude understand your project and work with you effectively. It provides:
+Device Care is a simple, low-tech solution for storing the troubleshooting steps that you always have to Google every time something stops working. Instead of bookmarking videos or searching Reddit again, you write down what actually worked—once.
 
-- **Onboarding flow** — Claude asks discovery questions before jumping in
-- **Role separation** — Architect (planning) vs Builder (implementation)
-- **Session commands** — `..architect`, `..builder`, `..go`, `..make`, etc.
-- **Living documentation** — PRFAQ, TODO, PROGRESS, DECISIONS files that stay in sync
+## Structure
 
-## Quick Start
-
-### 1. Clone/Fork this repo
-
-```bash
-git clone https://github.com/marekgorski/layer3-protocol.git my-project
-cd my-project
-```
-
-### 2. Open in Claude Code
-
-When you open the project, Claude will see the `[PLACEHOLDER]` markers and run the onboarding flow automatically.
-
-### 3. Answer discovery questions
-
-Claude will ask:
-1. What are we building?
-2. Who is it for?
-3. What problem does it solve?
-4. What does MVP success look like?
-5. Any constraints?
-
-### 4. Review and confirm
-
-Claude reflects back understanding. Confirm or correct.
-
-### 5. Start building
-
-Use the workflow commands:
-- `..architect` — Enter planning mode
-- `..builder` — Enter implementation mode
-- `..go` — Execute top task
-- `..end` — Close session
-
-## File Structure
+Guides are organized in a folder hierarchy:
 
 ```
-my-project/
-├── CLAUDE.md           # Technical reference + onboarding flow
-├── PRFAQ.md            # Product vision (Press Release / FAQ)
-├── TODO.md             # Prioritized task list
-├── PROGRESS.md         # Session-by-session development log
-├── DECISIONS.md        # Architecture Decision Records
-├── WORKFLOW.md         # Development process
-├── ROLE_PROTOCOL.md    # AI workflow commands
-└── README.md           # This file (replace with your own)
+devices/{category}/{subcategory}/{brand-model}/{guide}.md
 ```
 
-## Commands Reference
+**Example:**
+```
+devices/
+└── audio/
+    └── headphones/
+        └── sony-wi-c310/
+            └── pairing-iphone.md
+```
 
-| Command | Mode | Purpose |
-|---------|------|---------|
-| `..architect` | — | Enter planning mode |
-| `..builder` | — | Enter implementation mode |
-| `..start` | Architect | Load context, show priorities |
-| `..make` | Architect | Design a feature |
-| `..go` | Builder | Execute top task |
-| `..end` | Builder | Close session, update docs |
-| `..hygiene` | Architect | Archive old content |
-| `..exit` | Architect | Fossilize context |
+## Current Guides
 
-## Philosophy
+- **[Sony WI-C310 Bluetooth Pairing](devices/audio/headphones/sony-wi-c310/pairing-iphone.md)** — How to pair (or re-pair) these headphones with an iPhone
 
-### Why separate Architect and Builder?
+## Adding a New Guide
 
-- **Architect** has full context (PRFAQ, DECISIONS, etc.) for big-picture thinking
-- **Builder** has lean context (CLAUDE, TODO only) for focused execution
-- Prevents scope creep during implementation
-- Mirrors how humans work: plan first, then execute
+1. Create the folder path: `devices/{category}/{subcategory}/{brand-model}/`
+2. Add a markdown file describing the problem and solution
+3. Include: device info, numbered steps, and a troubleshooting table if helpful
 
-### Why so many markdown files?
+## Why Markdown on GitHub?
 
-- Claude reads these automatically
-- Version-controlled documentation
-- Easy to review what changed and when
-- Survives across sessions (Claude has no memory otherwise)
-
-### Why the onboarding flow?
-
-- Ensures Claude understands the project before acting
-- Prevents "helpful" assumptions that miss the mark
-- Creates documentation as a byproduct
-
-## License
-
-MIT — Use freely, modify as needed.
+- **Always accessible** — Works from any device with a browser
+- **Version controlled** — See what changed and when
+- **No account needed** — Just browse the repo
+- **Easy to update** — Edit directly on GitHub or locally
 
 ---
 
-*Layer3 Protocol v1.0*
+*A personal project for keeping track of device fixes.*
