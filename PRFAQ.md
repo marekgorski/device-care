@@ -1,30 +1,27 @@
-# [PROJECT_NAME] PRFAQ
+# Device Care PRFAQ
 
 ## Press Release
 
-### [HEADLINE: Company/Person Launches Product That Does X]
+### Personal Device Wiki Brings Order to Household Tech Chaos
 
-*[Subheadline: One sentence describing the key benefit]*
+*A simple, browsable collection of device guides — no apps, no accounts, just markdown.*
 
-**[LOCATION] — [DATE]** — [PROJECT_NAME], a [brief description], launches today with [core premise or differentiator].
+**December 2024** — Device Care is a personal knowledge base for device troubleshooting, maintenance, and usage instructions. It's a hierarchical folder structure of markdown files, browsable via GitHub.
 
-[Problem paragraph: What's broken today? Why do existing solutions fail?]
+**The Problem:** Device manuals get lost. Troubleshooting steps discovered through trial and error vanish from memory. The same Bluetooth pairing issue gets re-Googled every six months.
 
-[Solution paragraph: How does this solve it? What's the key insight?]
+**The Solution:** A Yahoo-directory-style folder tree where each device gets its own folder, and each common task gets its own guide. Navigate by clicking through categories until you find what you need.
 
 **How It Works**
 
-[Describe the core user flow in 3-5 steps]
+1. Browse to the device category (audio, hvac, lighting, etc.)
+2. Drill down to the specific device
+3. Find the guide for your task (pairing, reset, maintenance, etc.)
+4. Follow the steps
 
-**[Key Differentiator Section Title]**
+**Built for Personal Use**
 
-[Explain what makes this different from alternatives]
-
-**Built for [Target User]**
-
-[Describe why this is perfect for the target audience]
-
-[PROJECT_NAME] is available now at [URL/location].
+No authentication, no database, no hosting costs. Just a Git repo you can access from any device with a browser.
 
 ---
 
@@ -32,59 +29,31 @@
 
 ### User FAQs
 
-**Q: Who is [PROJECT_NAME] for?**
+**Q: Who is Device Care for?**
 
-A: [ANSWER]
+A: Me. It's a personal reference wiki for devices around the house.
 
-**Q: How is this different from [ALTERNATIVE]?**
+**Q: Why not just use Notion/Obsidian/Apple Notes?**
 
-A: [ANSWER]
+A: GitHub gives free hosting, version history, and works from any device. Markdown is portable. Folder structure is the navigation — no app required.
 
-**Q: How much does it cost?**
+**Q: How do I find a guide?**
 
-A: [ANSWER]
-
-**Q: [COMMON_QUESTION]?**
-
-A: [ANSWER]
+A: Browse the folder tree. Categories → Subcategories → Device → Guide.
 
 ---
 
-### Internal / Stakeholder FAQs
+### Internal FAQs
 
 **Q: Why build this?**
 
-A: [ANSWER]
+A: Tired of re-discovering the same troubleshooting steps. Want one place for device knowledge that's easy to access and update.
 
-**Q: What's the business model?**
+**Q: What counts as success?**
 
-A: [ANSWER]
-
-**Q: What are the key metrics for success?**
-
-A: [ANSWER]
-
-**Q: What's on the roadmap?**
-
-A: [ANSWER]
+A: When I need to fix something, I check here first and find the answer.
 
 ---
 
-## Appendix: The Problem We're Solving
-
-### Context
-
-[Deeper explanation of the problem space]
-
-### Why Now?
-
-[What's changed that makes this the right time?]
-
-### What Users Actually Need
-
-[Core requirements derived from problem analysis]
-
----
-
-*Document version: 0.1*
-*Last updated: [DATE]*
+*Document version: 1.0*
+*Last updated: 2024-12-23*

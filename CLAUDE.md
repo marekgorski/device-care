@@ -1,68 +1,5 @@
 # CLAUDE.md
 
-## 🚀 First-Time Setup
-
-**Claude:** If you see `[PLACEHOLDER]` markers in these files, this project hasn't been initialized yet. Run the onboarding flow below.
-
----
-
-### Onboarding Flow
-
-When a user first opens this project, guide them through discovery before doing anything else.
-
-**Step 1: Discovery Questions**
-
-Ask these one at a time, conversationally. Don't dump all questions at once.
-
-1. "What are we building? Give me the one-liner."
-2. "Who is it for? Who's the primary user?"
-3. "What problem does it solve? What's broken or painful today?"
-4. "What does MVP success look like? How will we know it's working?"
-5. "Any constraints I should know? (tech preferences, timeline, budget, etc.)"
-
-**Step 2: Reflect Understanding**
-
-After gathering answers, reflect back before proceeding:
-
-```
-"Let me make sure I understand:
-
-**Project:** [What we're building]
-**Users:** [Who it's for]
-**Problem:** [What's broken today]
-**MVP Success:** [How we'll know it works]
-**Constraints:** [Tech/time/budget limits]
-
-Does this capture it? Anything I'm missing or got wrong?"
-```
-
-**Step 3: Populate Docs**
-
-Once user confirms, update these files with real content:
-- `PRFAQ.md` — Write press release and FAQs
-- `DECISIONS.md` — Document initial architecture choices
-- `TODO.md` — Create prioritized task list
-- `CLAUDE.md` — Replace this section with project-specific technical reference
-
-Remove all `[PLACEHOLDER]` markers when done.
-
-**Step 4: Confirm Ready**
-
-```
-"Project initialized! Here's what I've set up:
-- PRFAQ.md: [brief summary]
-- DECISIONS.md: [key decisions]
-- TODO.md: [top priorities]
-
-Ready to start building. You can use:
-- `..architect` — Enter planning mode
-- `..builder` — Enter implementation mode
-
-What would you like to tackle first?"
-```
-
----
-
 ## System Protocol
 
 This project uses the **Layer3 workflow protocol** for AI-assisted development.
@@ -93,28 +30,18 @@ See `ROLE_PROTOCOL.md` for full command specifications.
 
 ## Project Overview
 
-> ⚠️ **Not yet initialized.** Run onboarding flow above.
+**Project:** Device Care
 
-**Project:** [PROJECT_NAME]
+**One-liner:** A personal wiki of device troubleshooting guides, organized as browsable markdown files on GitHub.
 
-**One-liner:** [BRIEF_DESCRIPTION]
-
-**Status:** Not started
+**Status:** Initialized
 
 ---
 
-## Tech Stack
-
-| Layer | Choice | Rationale |
-|-------|--------|-----------|
-| [LAYER] | [CHOICE] | [WHY] |
-
----
-
-## Project Structure
+## Structure
 
 ```
-[PROJECT_NAME]/
+device-care/
 ├── CLAUDE.md           # Technical reference (this file)
 ├── PRFAQ.md            # Product vision and FAQs
 ├── TODO.md             # Prioritized task list
@@ -122,26 +49,42 @@ See `ROLE_PROTOCOL.md` for full command specifications.
 ├── DECISIONS.md        # Architecture Decision Records
 ├── WORKFLOW.md         # Development process
 ├── ROLE_PROTOCOL.md    # AI workflow commands
-└── README.md           # User-facing documentation
+├── README.md           # User-facing documentation
+└── devices/            # Device guides (the actual content)
+    ├── audio/
+    │   └── headphones/
+    │       └── sony-wi-c310/
+    │           └── pairing-iphone.md
+    ├── hvac/
+    └── ...
 ```
 
 ---
 
-## Data Model
+## Folder Hierarchy
 
-[DESCRIBE_DATA_STRUCTURES]
+The folder structure follows a Yahoo-directory style:
+
+```
+devices/{category}/{subcategory}/{brand-model}/{guide}.md
+```
+
+**Examples:**
+- `devices/audio/headphones/sony-wi-c310/pairing-iphone.md`
+- `devices/hvac/air-filters/ordering-replacements.md`
+- `devices/lighting/smart-bulbs/philips-hue/setup.md`
 
 ---
 
-## Key Flows
+## Guide Format
 
-[DESCRIBE_USER_FLOWS]
+Each guide should include:
 
----
-
-## Implementation Notes
-
-[TECHNICAL_DETAILS]
+1. **Title** — What problem this solves
+2. **Device info** — Model, brief description
+3. **Steps** — Numbered, actionable steps
+4. **Troubleshooting table** — Common issues and solutions (optional)
+5. **References** — Links to official docs/videos if helpful
 
 ---
 
@@ -159,5 +102,5 @@ See `ROLE_PROTOCOL.md` for full command specifications.
 
 ---
 
-*Last updated: [DATE]*
-*Status: [STATUS]*
+*Last updated: 2024-12-23*
+*Status: Initialized*
