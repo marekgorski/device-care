@@ -4,6 +4,44 @@ This file tracks session-by-session progress. Newest entries at top.
 
 ---
 
+## Session: 2025-12-28 — Task Ownership Handoff System
+
+### What Was Accomplished
+
+**Added human/AI task handoff system:**
+
+1. **ROLE_PROTOCOL.md** — Added task ownership markers section
+   - `[C]` Claude can complete
+   - `[M]` Marek must complete  
+   - `[C→M]` Claude prepares, Marek executes
+   - `[M→C]` Marek decides, Claude implements
+   - Updated `..builder`/`..go` to check MAREK.md
+   - Updated `..architect`/`..start` to flag stale `[M]` tasks
+
+2. **MAREK.md** — Restructured with status sections
+   - ⏸️ Blocked (needs Marek action)
+   - ✅ Ready for Marek (Claude prepared)
+   - ❓ Waiting on Marek Decision
+   - 🔄 Ongoing Tasks
+   - ✅ Completed
+
+3. **TODO.md** — Added markers to all tasks
+   - All `[C]` tasks have AC
+   - Human tasks referenced to MAREK.md
+   - Added "Blocked by" notes for dependent tasks
+
+### Files Updated
+
+- `ROLE_PROTOCOL.md` — Handoff system, task markers
+- `MAREK.md` — Restructured with status sections
+- `TODO.md` — Added `[C]` markers, blocked notes
+- `PROGRESS.md` — This entry
+
+### Next Session
+**TOP PRIORITY:** `[C]` Create guide template
+
+---
+
 ## Session: 2024-12-23 — Documentation Cleanup
 
 ### What Was Accomplished

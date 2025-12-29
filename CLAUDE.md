@@ -22,9 +22,10 @@ See `ROLE_PROTOCOL.md` for full command specifications.
 ### Quick Rules
 
 1. **Architect designs, Builder implements** — Don't mix roles
-2. **Docs are source of truth** — Update TODO, PROGRESS, DECISIONS after changes
-3. **Micro-commits** — Small, frequent commits with clear messages
-4. **Context files stay lean** — Run `..hygiene` when files grow large
+2. **Task ownership** — `[C]` tasks in TODO.md, `[M]` tasks in MAREK.md
+3. **Docs are source of truth** — Update TODO, PROGRESS, DECISIONS after changes
+4. **Micro-commits** — Small, frequent commits with clear messages
+5. **Context files stay lean** — Run `..hygiene` when files grow large
 
 ---
 
