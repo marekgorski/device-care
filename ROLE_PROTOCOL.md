@@ -1,6 +1,7 @@
-# Layer3 AI Workflow Protocol (v1.2)
+# Device Care AI Workflow Protocol — protocol-duo v2.0 (duo/ab)
 
 ## Changelog
+- **v2.0** (Jan 2, 2026): Renamed to protocol-duo v2.0, added duo/ab extension identifier
 - **v1.2** (Dec 28, 2025): Added task ownership markers, human/AI handoff system, acceptance criteria, verification steps, recovery levels
 - **v1.0** (Dec 2024): Initial protocol
 
@@ -217,4 +218,4 @@ Human-only tasks live in MAREK.md, organized by status:
 
 ---
 
-*Layer3 Protocol v1.2 — December 28, 2025*
+*protocol-duo v2.0 — January 2, 2026*
